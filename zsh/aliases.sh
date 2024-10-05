@@ -1,0 +1,1 @@
+alias resetzsh="source ~/.zshrc && echo 'zsh succesfully restarted'"

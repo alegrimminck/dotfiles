@@ -1,4 +1,4 @@
-# Created by newuser for 5.9
+export DOTZSH=$HOME/dotfiles/zsh/
 
-alias resetzsh="source ~/.zshrc"
-
+# import aliases
+[[ -e $DOTZSH/aliases.sh ]] && source $DOTZSH/aliases.sh
