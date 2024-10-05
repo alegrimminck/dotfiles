@@ -5,3 +5,6 @@ export DOTZSH=$HOME/dotfiles/zsh/
 
 # import aliases
 [[ -e $DOTZSH/aliases.sh ]] && source $DOTZSH/aliases.sh
+
+# source power level 10k configuration
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
