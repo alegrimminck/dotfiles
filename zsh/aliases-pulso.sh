@@ -1,0 +1,1 @@
+alias pulsoapp="cd ~/pulso/pulso-app"
