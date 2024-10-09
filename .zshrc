@@ -14,3 +14,7 @@ export DOTZSH=$HOME/dotfiles/zsh/
 
 # help source
 [[ -e $DOTZSH/help.sh ]] && source $DOTZSH/help.sh
+
+# packages
+[[ -e $DOTZSH/packages.sh ]] && source $DOTZSH/packages.sh
+
