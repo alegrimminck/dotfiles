@@ -18,3 +18,5 @@ export DOTZSH=$HOME/dotfiles/zsh/
 # packages
 [[ -e $DOTZSH/packages.sh ]] && source $DOTZSH/packages.sh
 
+# pulso scripts
+[[ -e $DOTZSH/pulso_scripts.sh ]] && source $DOTZSH/pulso_scripts.sh
