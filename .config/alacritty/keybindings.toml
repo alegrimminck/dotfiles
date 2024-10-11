@@ -1,0 +1,6 @@
+# \x -> \u00
+[keyboard]
+bindings = [
+  { key = "Back", mods = "Control", chars = "\u001b\u007f" },                # Delete word
+  { key = "Back", mods = "Alt", chars = "\u0015" },                          # Delete line
+]

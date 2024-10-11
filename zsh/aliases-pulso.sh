@@ -1,0 +1,7 @@
+alias pulsoapp="cd ~/pulso/pulso-app"
+alias dup="docker compose up"
+alias rup="rails s -b 192.168.101.1"
+alias wup="bin/webpacker-dev-server"
+alias afterreset="sudo systemctl restart postgresql"
+alias text-restart-container="echo 'docker compose restart <pulso-function> pubsub && docker compose restart pubsub-client'"
+alias kill-servers="sudo killall -9 ruby"
